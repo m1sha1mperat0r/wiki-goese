@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>html гусь</title>
+	<link rel="stylesheet"  href="wiki css.css">
+	<link rel="icon"  href="img/icon.jpg">
+<body>
+	<header>
+		<a href="wiki index.html"><img class="arrow" src="img/stl.png" alt="стрелка влево"></a>
+		<h1>wiki от гуся</h1>
+		<a href="wiki index2.html"><img class="arrow" src="img/str.png" alt="стрелка вправо"></a>
+	</header>
+	<main>
+	<table>
+<tr>
+	<th>
+			<h2>CSS  селектор</h2>
+	</th>
+		<th>
+				пример
+	</th>
+	<th>
+				описание
+	</th>
+</tr> 
+<tr>
+	<th><h2>.class</h2>
+	</th><td>.myclass</td>		
+    <td>выбирает все элементы с класом myclass</td>
+</tr> 
+<tr>
+	<th><h2>id</h2></th>
+	<td>myid</td>
+	<td>выберает элемент с id myid</td>
+</tr>
+<tr>
+	<th><h2>*</h2></th>
+	<td>*</td>
+	<td>выделяет все элементы</td>
+</tr>
+<tr>
+	<th><h2>тег</h2></th>
+	<td>div</td>
+	<td>выберает все теги div</td>
+</tr>
+<tr>
+	<th><h2>элемент элемент</h2></th>
+	<td>div h2</td>
+	<td>выбдирает все элементы &ltdivr&lt и все элементы &lth2&lt</td>
+</tr>
+<tr>
+	<th><h2>атрибут</h2></th>
+	<td>href</td>
+	<td>выбирает все элементы у которых эсть href</td>
+</tr>
+<tr>
+	<th><h2>атрибут="значение"</h2></th>
+	<td>href~="https://yandex.ru"</td>
+	<td>выберает все элементы у которых атрибут href точно совподает с указаным значением</td>
+</tr>
+<tr>
+	<th><h2>атрибут~="значение"</h2></th>
+	<td>href~="yandex.ru"</td>
+	<td>выберает все элементы c атрибут href в значении которого (в любом месте) встречается подстрока "yandex.ru" в виде отдельного слова</td>
+</tr>
+<tr>
+	<th><h2>элемент>элемент</h2></th>
+	<td>div+p</td>
+	<td>выбирает все элементы &ltdivr&lt которые расположены сразу перед элементом &ltp&lt</td>
+</tr>
+<tr>
+	<th><h2>элемент~элемент</h2></th>
+	<td>p~div</td>
+	<td>выбирает все элементы &ltdivr&lt которые расположены сразу после элементом &ltp&lt</td>
+</tr>
+<tr>
+	<th><h2>элемент</h2></th>
+	<td>td:nth-child(1)</td>
+	<td>выбирает все элементы &lttd&lt которые первые в своей группе</td>
+</tr>
+</main>
+</table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+header {
+	background: dodgerblue;
+	height: 70px;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.arrow {width: 64px;
+}
+body {margin: 0px;
+background: powderblue;}
+
+main {width: 80%;
+margin: auto;
+background: whitesmoke;
+min-height: calc(100vh - 70px);
+padding: 5px 15px;
+box-sizing: border-box;
+}
+table {
+   border: 1px solid grey;
+   height: 105px;
+width: 100%;
+text-align: center;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+   border: 1px solid grey;
+}
+/* границы ячеек тела таблицы */
+td {
+   border: 1px solid grey;
+}
+{text-align: center;}
+/*Свойства для каждого первого td*/
+td:nth-child(1) {
+    /*Толщина шрифта: жирный*/
+    font-weight: bold;
+}

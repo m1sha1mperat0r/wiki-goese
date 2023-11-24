@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Wiki</title>
+    <link rel="" href="style.css">
+    <link rel="icon" href="images/icon.png">
+    <style>
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .container > div {
+            background: gray;
+            flex-basis: 30%;
+            height: 100px;
+            margin: 20px 0;
+        }
+        #abc {
+            border-color: red green blue black;
+            border-width: 5px 3px;
+            border-style: dashed double dotted solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <a href="tags.html"><img class="arrow" src="images/left_arrow.png" alt="Стрелка влево"></a>
+        <h1>Обводка и цвет</h1>
+        <a href="css.html"><img class="arrow" src="images/right_arrow.png" alt="Стрелка вправо"></a>
+    </header>
+
+    <!-- Основная часть сайта -->
+    <main>
+        <div class="container">
+            <div style="background: #fae445; border: 5px #0fabc5 solid"></div>
+            <div style="background: rgb(200, 10, 100); border: 5px #05b dotted"></div>
+            <div style="background: rgba(250, 20, 0, 0.7); border: 5px #0c3 dashed"></div>
+            <div style="background: aqua; border: 5px red double;"></div>
+            <div style="border: 5px magenta inset;"></div>
+            <div style="border: 5px maroon outset;"></div>
+            <div style="border: 5px seagreen ridge;"></div>
+            <div style="border: 5px limegreen groove;"></div>
+            <div id="abc"></div>
+        </div>
+    </main>
+</body>
+</html>
